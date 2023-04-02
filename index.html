@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./media.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,28 +15,32 @@
     />
   </head>
   <body>
-    <div class="header">
+    <header class="header">
       <h1 class="header-title">Tatev Zakaryan</h1>
       <p class="header-subtitle">Game developer, React developer</p>
       <div class="header-arrow">
         <img src="./img/header/chevron-down.svg" alt="Arrow" />
       </div>
-    </div>
-
-    <div class="portfolio">
+    </header>
+<main>
+    <section class="portfolio">
       <div class="container">
         <h2 class="portfolio-header">Портфолио</h2>
         <div class="portfolio-cards-wrapper">
           <div class="card">
-            <img
-              class="card-img"
-              src="./img/portfolio/forest.jpg"
-              alt="Многостраничный сайт"
-            />
-            <h3 class="card-title">Многостраничный сайт</h3>
-            <p>Верстка многостраничного сайта.</p>
+            <a href="forest-travel.html" class="card-link">
+              <img
+                class="card-img"
+                src="./img/portfolio/forest.jpg"
+                alt="Многостраничный сайт"
+              />
+              <h3 class="card-title">Многостраничный сайт</h3>
+              <p>Верстка многостраничного сайта.</p>
+            </a>
           </div>
           <div class="card">
+            <a href="forest-travel.html" class="card-link">
+
             <img
               class="card-img"
               src="./img/portfolio/portfolio.jpg"
@@ -43,8 +48,11 @@
             />
             <h3 class="card-title">Адаптивный лендинг</h3>
             <p>Верстка многостраничного сайта.</p>
+           </a>
           </div>
           <div class="card">
+            <a href="forest-travel.html" class="card-link">
+
             <img
               class="card-img"
               src="./img/portfolio/quantum.jpg"
@@ -52,8 +60,11 @@
             />
             <h3 class="card-title">Личный сайт</h3>
             <p>Верстка многостраничного сайта.</p>
+          <a/>
           </div>
           <div class="card">
+            <a href="forest-travel.html" class="card-link">
+
             <img
               class="card-img"
               src="./img/portfolio/unit.jpg"
@@ -61,11 +72,13 @@
             />
             <h3 class="card-title">Интернет магазин</h3>
             <p>Верстка многостраничного сайта.</p>
+          <a/>
           </div>
         </div>
       </div>
-    </div>
-    <div class="footer">
+    </section>
+  </main>
+    <footer class="footer">
       <div class="container">
         <div class="footer-row">
           <div class="footer-copyright footer-col">
@@ -93,7 +106,7 @@
             </div>
           </div>
           <div class="footer-contacts footer-col">
-            <a href="#" class="footer-button">Связаться Вконтакте</a>
+            <a href="https://vk.com/" class="footer-button">Связаться Вконтакте</a>
             <p>
               Напишите мне, чтобы заказать или узнать стоимость верстки вашего
               проекта
@@ -101,6 +114,6 @@
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   </body>
 </html>
